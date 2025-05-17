@@ -1,3 +1,6 @@
+rm -rf /opt/ANDRAX/impacket
+
+python3 -m venv /opt/ANDRAX/impacket
 
 source /opt/ANDRAX/impacket/bin/activate
 
