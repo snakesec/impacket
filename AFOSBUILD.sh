@@ -1,7 +1,7 @@
 
-source /opt/ANDRAX/PYENV/python3/bin/activate
+source /opt/ANDRAX/impacket/bin/activate
 
-/opt/ANDRAX/PYENV/python3/bin/pip3 install wheel
+/opt/ANDRAX/impacket/bin/pip3 install wheel
 
 if [ $? -eq 0 ]
 then
@@ -12,7 +12,7 @@ else
   exit 1
 fi
 
-/opt/ANDRAX/PYENV/python3/bin/pip3 install .
+/opt/ANDRAX/impacket/bin/pip3 install .
 
 if [ $? -eq 0 ]
 then

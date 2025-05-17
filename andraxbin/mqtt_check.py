@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source /opt/ANDRAX/PYENV/python3/bin/activate
+source /opt/ANDRAX/impacket/bin/activate
 
-/opt/ANDRAX/PYENV/python3/bin/python3 /opt/ANDRAX/PYENV/python3/bin/mqtt_check.py "$@"
+/opt/ANDRAX/impacket/bin/python3 /opt/ANDRAX/impacket/bin/mqtt_check.py "$@"

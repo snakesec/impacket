@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source /opt/ANDRAX/PYENV/python3/bin/activate
+source /opt/ANDRAX/impacket/bin/activate
 
-/opt/ANDRAX/PYENV/python3/bin/python3 /opt/ANDRAX/PYENV/python3/bin/GetUserSPNs.py "$@"
+/opt/ANDRAX/impacket/bin/python3 /opt/ANDRAX/impacket/bin/GetUserSPNs.py "$@"
