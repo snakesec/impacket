@@ -1,6 +1,6 @@
 import os
 save_dir = "andraxbin"
-progpath = "/opt/ANDRAX/PYENV/python3"
+progpath = "/opt/ANDRAX/impacket"
 
 str_file = """#!/bin/bash
 
